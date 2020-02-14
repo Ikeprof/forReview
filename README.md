@@ -1,6 +1,6 @@
 # forReview
 
-Ikecode is called on server poll.  It is the engine that calls  the other routines.  It has the routines for social mob behavior, mob migration, custom spells etc.
+Ikecode is called on server poll.  It is the engine that calls  the other routines.  It has the routines for social mob behavior, mob migration, custom spells etc.  Mob migration does mobs in incremental bites each poll and monitors the duration of the work.  If the duration exceeds a certain amount of time, it reduces the size of the bites each poll until the duration is within an acceptable range.  
 
 Guardian is the combat pet code. The combat pets use existing skills that don't apply to pets to hold information.  So skill #1013 (I don't remember what that is) holds the last command issued by the player via his wand).
 

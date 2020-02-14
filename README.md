@@ -6,3 +6,11 @@ Guardian is the combat pet code. The combat pets use existing skills that don't 
 
 WispUpdate is the light token that follows the player around.
 
+Fireorb spell just applies an initial damage and a spell effect.  Ikecode CustomSpellsUpdate handles the dot effect.
+
+IronFloor is just strongwall for cave floors
+
+Spark spell does initial damage and applies a spell effect.  Spread of spark to other mobs is handled in Ikecode CustomspellsUpdate
+
+
+
